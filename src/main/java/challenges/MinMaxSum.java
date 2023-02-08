@@ -15,7 +15,7 @@ import java.util.stream.Stream;
  * arr = [1, 3, 5, 7, 9 ]
  * The minimum sum is 1 + 3 + 5 + 7 = 16 and the maximum sum is 3 + 5 + 7 + 9 = 24 . The function prints: 16 24
  */
-class Result {
+class MinMaxSumResult {
 
     public static void miniMaxSum(List<Integer> arr) {
 
@@ -38,7 +38,7 @@ public class MinMaxSum {
                 .map(Integer::parseInt)
                 .toList();
 
-        Result.miniMaxSum(arr);
+        MinMaxSumResult.miniMaxSum(arr);
 
         bufferedReader.close();
     }
