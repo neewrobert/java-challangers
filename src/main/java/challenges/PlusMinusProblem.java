@@ -62,6 +62,8 @@ class PlusMinusResult {
         System.out.println(secondRatio);
         System.out.println(thirdRatio);
 
+        arr.stream().sorted();
+
     }
 
 }
